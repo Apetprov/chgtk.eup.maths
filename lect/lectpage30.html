@@ -1,0 +1,100 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Лекция 30</title>
+    <link rel="stylesheet" href="ligth-mode.css" id="theme">
+    <link rel="stylesheet" href="lect.css">
+   <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-GLhlTQ8iRABdZLl6O3oVMWSktQOp6b7In1Zl3/Jr59b6EGGoI1aFkw7cmDA6j6gD" crossorigin="anonymous">
+    
+</head>
+<body>
+<div class="main">
+  <div class="topnav">
+    <a class="mainpage" href="../index.html">Главная</a>
+    <a href="oboznachenie.html">Основные обозначения</a>
+    <a href="../soderjanie.html">Содержание</a>
+  </div>
+  <div class="lead"><h1 class="h1">Лекция 5.1</h1>
+<p><b>Основные приемы решения уравнений</b></p></div>
+
+<div class="col"><main class="content">  
+   
+    <p><b>Формулы для решения уравнений</b></p>
+    <p><img src="lectimg/344.png " alt=""></p>
+    <p><b>Как сводить уравнения к простейшим?</b></p>
+    <p><img src="lectimg/345.jpg" alt=""></p>
+    <p>Разложение многочлена на множители основано на следующей простой теореме
+        (ее часто называют теоремой Декарта, иначе ее можно получить как следствие известной теоремы Безу):
+        </p>
+    <p>Если число a является <b>корнем многочлена</b>  f(x), то f(x) делится на двучлен x − a, т. е. справедливо разложение на множители: f(x) = (x − a)g(x), где g(x) — многочлен, степень которого на единицу меньше степени f(x).
+        Корень многочлена с целыми коэффициентами можно попытаться найти подбором</p>
+    <p>Нетрудно доказать, что целый корень многочлена с целыми коэффициентами
+        и с коэффициентом, равным 1, при старшей степени обязательно является делителем
+        свободного члена.
+        Поэтому, перебирая делители свободного члена, можно узнать все целые корни</p>
+    <p>2)<b>Способ группировки</b></p>
+    <p><img src="lectimg/346.jpg" alt=""></p>
+    <p>В ходе решения тригонометрических уравнений часто удается выделить множители и тем самым упростить уравнение.</p>
+    <p><b>Решение тригонометрических уравнений разложением на множители</b></p>
+    <p><img src="lectimg/347.png" alt=""></p>
+    <p><img src="lectimg/348.png" alt=""></p>
+    <p><img src="lectimg/349.png" alt=""></p>
+    <p><img src="lectimg/350.png" alt=""></p>
+    <p><b>Замечание об области определения нового неизвестного.</b>Обозначая в некотором уравнении с неизвестным x выражение f(x) за новое неизвестное y, приходим
+        к уравнению с неизвестным y.</p>
+    <p>Область определения y совпадает с областью значений функции y = f(x).</p>
+    <p>На это можно не обращать никакого внимания при замене неизвестного, так как,
+        решив уравнение относительно y и перейдя к уравнению f(x) = y для нахождения x, мы
+        все равно столкнемся с этим вопросом — уравнение f(x) = y имеет корни в том и только
+        в том случае, когда число y входит в область значений функции f</p>
+    <p>Например, выполняя в некотором показательном уравнении замену 2x = y, можно на этом этапе не учитывать, какие значения может принимать y.</p>
+    <p>Если уравнение относительно y имеет, например, корни y1 = 4, y2 = −4, то, решая
+        уравнение 2x = −4, мы запишем, что у него нет корней.</p>
+    <p>В то же время отмечать (если это не сложно) область значений y полезно, так как
+        это, во-первых, может упростить решение уравнения относительно y (в нашем примере,
+        если искать только положительные решения, то это может оказаться проще, чем решать
+        уравнение полностью).</p>
+    <p>Во-вторых, внимание к области значений может предостеречь от случайных
+        ошибок.</p>
+    <p><img src="lectimg/351.jpg" alt=""></p>
+    <p><img src="lectimg/352.jpg" alt=""></p>
+    <p><img src="lectimg/353.jpg" alt=""></p>
+    <p><img src="lectimg/354.png" alt=""></p>
+    <p><img src="lectimg/355.jpg" alt=""></p>
+
+
+<nav aria-label="Page navigation example">
+    <ul class="pagination justify-content-center">
+      <li class="page-item"><a class="page-link" href="lectpage29.html">Предыдущий</a></li>
+      <li class="page-item disabled"><a class="page-link" href="#">30</a></li>
+      <li class="page-item"><a class="page-link" href="lectpage31.html">31</a></li>
+      <li class="page-item"><a class="page-link" href="lectpage32.html">32</a></li>
+      <li class="page-item">
+        <a class="page-link" href="lectpage31.html">Следующая</a>
+      </li>
+    </ul>
+</nav> 
+ </main></div>
+ <script src="http://ajax.googleapis.com/ajax/libs/jquery/1.7.1/jquery.min.js"></script>
+ <div id="topNubex"><img src="../img/naverh.gif" width="70px" height="70px" /></div>
+ <script type="text/javascript">
+  $(function() {
+  $(window).scroll(function() {
+  if($(this).scrollTop() != 0) {
+  $('#topNubex').fadeIn();
+  } else {
+  $('#topNubex').fadeOut();
+  }
+  });
+  $('#topNubex').click(function() {
+  $('body,html').animate({scrollTop:0},100);
+  });
+  });
+  </script>
+
+</body>
+<script src="script.js"></script>
+</html>

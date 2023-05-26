@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Лекция 42</title>
+    <link rel="stylesheet" href="ligth-mode.css" id="theme">
+    <link rel="stylesheet" href="lect.css">
+   <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-GLhlTQ8iRABdZLl6O3oVMWSktQOp6b7In1Zl3/Jr59b6EGGoI1aFkw7cmDA6j6gD" crossorigin="anonymous">
+    
+</head>
+<body>
+<div class="main">
+  <div class="topnav">
+    <a class="mainpage" href="../index.html">Главная</a>
+    <a href="oboznachenie.html">Основные обозначения</a>
+    <a href="../soderjanie.html">Содержание</a>
+  </div>
+  <div class="lead"><h1 class="h1">Лекция 7.2.5</h1>
+<p><b>Правильные многогранники</b></p></div>
+
+<div class="col"><main class="content">  
+   
+    <p><b>Какие многогранники стали символом красоты и совершенства?</b></p>
+    <p>Древнегреческим философом Платоном так описаны правильные многогранники: «Земле мы, конечно, припишем вид куба: ведь из всех четырех сущностей наиболее неподвижна и пригодна к образованию тел именно Земля, а потому ей необходимо иметь самые устойчивые основания… Из всех тел наиболее подвижно по природе своей то, у которого наименьшее число оснований, ибо оно со всех сторон имеет режущие грани и колющие углы… Пусть же образ пирамиды, рожденный объемным, и будет первоначалом и семенем огня…».</p>
+    <p><b>Правильный многогранник —</b> это выпуклый многогранник, у которого все грани — одинаковые правильные многоугольники и в каждой вершине сходится одно и то же число ребер.</p>
+    <p>Приведем таблицу, описывающую количественные характеристики правильных многогранников.</p>
+     <b>Таблица</b>
+    <p><img src="lectimg/439.png" alt=""></p>
+    <p>В таблице:</p>
+    <p>v — число вершин многогранника; e — число ребер; f — число граней.
+        Легко заметить, что во всех случаях выполняется соотношение: v + f = e + 2, т. е. что сумма числа вершин и числа граней на 2 больше числа ребер.
+        </p>
+    <p>Это наблюдение верно для любого выпуклого многогранника и составляет содержание знаменитой теоремы, доказанной впервые Леонардом Эйлером.</p>
+    <p><b>Теорема Эйлера.</b> Пусть f обозначает число граней, e — число ребер, v — число вершин выпуклого многогранника. Тогда f + v = e + 2.</p>
+    <p><img src="lectimg/440.jpg" alt=""></p>
+
+
+<nav aria-label="Page navigation example">
+    <ul class="pagination justify-content-center">
+      <li class="page-item"><a class="page-link" href="lectpage41.html">Предыдущий</a></li>
+      <li class="page-item disabled"><a class="page-link" href="#">42</a></li>
+      <li class="page-item"><a class="page-link" href="lectpage43.html">43</a></li>
+      <li class="page-item"><a class="page-link" href="lectpage44.html">44</a></li>
+      <li class="page-item">
+        <a class="page-link" href="lectpage43.html">Следующая</a>
+      </li>
+    </ul>
+</nav> 
+ </main></div>
+ <script src="http://ajax.googleapis.com/ajax/libs/jquery/1.7.1/jquery.min.js"></script>
+ <div id="topNubex"><img src="../img/naverh.gif" width="70px" height="70px" /></div>
+ <script type="text/javascript">
+  $(function() {
+  $(window).scroll(function() {
+  if($(this).scrollTop() != 0) {
+  $('#topNubex').fadeIn();
+  } else {
+  $('#topNubex').fadeOut();
+  }
+  });
+  $('#topNubex').click(function() {
+  $('body,html').animate({scrollTop:0},100);
+  });
+  });
+  </script>
+
+</body>
+<script src="script.js"></script>
+</html>

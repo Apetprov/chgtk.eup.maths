@@ -1,0 +1,96 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Лекция 24</title>
+    <link rel="stylesheet" href="ligth-mode.css" id="theme">
+    <link rel="stylesheet" href="lect.css">
+   <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-GLhlTQ8iRABdZLl6O3oVMWSktQOp6b7In1Zl3/Jr59b6EGGoI1aFkw7cmDA6j6gD" crossorigin="anonymous">
+    
+</head>
+<body>
+<div class="main">
+  <div class="topnav">
+    <a class="mainpage" href="../index.html">Главная</a>
+    <a href="oboznachenie.html">Основные обозначения</a>
+    <a href="../soderjanie.html">Содержание</a>
+  </div>
+  <div class="lead"><h1 class="h1">Лекция 4.4</h1>
+<p><b>Формулы дифференцирования.</b></p></div>
+
+<div class="col"><main class="content">  
+   
+    <p><b>Правила вычисления производных</b></p>
+<p><b>1. Правила перехода к пределу.</b> Так как производная определена с помощью
+    понятия предела, вспомним основные правила обращения с пределами:</p>
+<p>- предел постоянной равен самой постоянной;
+<p>- предел суммы равен сумме пределов;</p>
+<p>- постоянный множитель можно выносить за знак предела.</p>
+<p>Эти правила позволяют вычислить производные некоторых простейших функций.</p>
+<p>Результаты первых двух примеров очевидны с точки зрения механики. Если
+    функцию y = f(x) понимать как закон движения по оси y в зависимости от времени x,
+    то линейная функция от x описывает равномерное движение, скорость которого совпадает со средней скоростью на любом интервале изменения времени.</p>
+<p><b>2.Правила вычесления производной.</b></p>
+<p>- ( f + g)′ = f′ + g′ — производная суммы равна сумме производных;</p>
+<p>- (cf)′ = cf′ — постоянный множитель можно выносить за знак производной;</p>
+<p>- (f · g)′ = f′g + fg′ — формула для производной произведения;</p>
+<p><img src="lectimg/302.png" alt="">— формула для производной частного.</p>
+<p>Первые два правила соответствуют понятию линейности операции дифференцирования.
+</p>
+<p>С помощью правил вычисления производной можно найти производные рациональных функций.</p>
+<p>1) Формула производной произведения позволяет найти производную любой
+    степени. Мы вычислили по определению следующие производные: (x)′ = 1, (x
+    2
+    )′ = 2x,
+    (x
+    3
+    )′ = 3x
+    2
+    .</p>
+<p>Легко догадаться, что при любом натуральном n формула должна иметь такой вид:</p>
+<p><img src="lectimg/303.jpg" alt=""></p>
+<p>Заметим, что эту формулу можно переписать так: (x
+    −n
+    )′ = (−n)x
+    −n−1. Видим, что
+    она аналогична формуле производной степени с натуральным показателем. Можно
+    объединить две формулы в одну, верную как при положительных, так и при отрицательных целых числах: (x
+    k
+    )′ = kxk−1. Формально она верна и при k = 0. Далее будет показано, что она верна не только при целых, но и при любых вещественных k.</p>
+<p><img src="lectimg/304.jpg" alt=""></p>
+<p><img src="lectimg/305.jpg" alt=""></p>
+
+<nav aria-label="Page navigation example">
+    <ul class="pagination justify-content-center">
+      <li class="page-item"><a class="page-link" href="lectpage23.html">Предыдущий</a></li>
+      <li class="page-item disabled"><a class="page-link" href="#">24</a></li>
+      <li class="page-item"><a class="page-link" href="lectpage25.html">25</a></li>
+      <li class="page-item"><a class="page-link" href="lectpage26.html">26</a></li>
+      <li class="page-item">
+        <a class="page-link" href="lectpage25.html">Следующая</a>
+      </li>
+    </ul>
+</nav> 
+ </main></div>
+ <script src="http://ajax.googleapis.com/ajax/libs/jquery/1.7.1/jquery.min.js"></script>
+ <div id="topNubex"><img src="../img/naverh.gif" width="70px" height="70px" /></div>
+ <script type="text/javascript">
+  $(function() {
+  $(window).scroll(function() {
+  if($(this).scrollTop() != 0) {
+  $('#topNubex').fadeIn();
+  } else {
+  $('#topNubex').fadeOut();
+  }
+  });
+  $('#topNubex').click(function() {
+  $('body,html').animate({scrollTop:0},100);
+  });
+  });
+  </script>
+
+</body>
+<script src="script.js"></script>
+</html>

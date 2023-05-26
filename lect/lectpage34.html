@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Лекция 34</title>
+    <link rel="stylesheet" href="ligth-mode.css" id="theme">
+    <link rel="stylesheet" href="lect.css">
+   <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-GLhlTQ8iRABdZLl6O3oVMWSktQOp6b7In1Zl3/Jr59b6EGGoI1aFkw7cmDA6j6gD" crossorigin="anonymous">
+    
+</head>
+<body>
+<div class="main">
+  <div class="topnav">
+    <a class="mainpage" href="../index.html">Главная</a>
+    <a href="oboznachenie.html">Основные обозначения</a>
+    <a href="../soderjanie.html">Содержание</a>
+  </div>
+  <div class="lead"><h1 class="h1">Лекция 6.3</h1>
+<p><b>Число орбит.</b></p></div>
+
+<div class="col"><main class="content">  
+   
+    <p><b>Как при комбинаторных подсчетах учитываются комбинации, которые
+        считаются одинаковыми?</b></p>
+    <p>При подсчете числа вариантов часто приходится считать одинаковыми (отождествлять) варианты по некоторому признаку. Если объединить все варианты, которые
+        считаются одинаковыми, то получим множество, которое называют орбитой.</p>
+    <p><b>Орбита</b> — множество одинаковых (равноценных) вариантов.</p>
+    <p><b>1. Круглый стол.</b>Посадим 6 человек в ряд. Это можно сделать 6! способами.
+        Теперь посадим их за круглый стол. Будем считать одинаковыми способы расстановки
+        людей, которые можно получить поворотом стола по кругу.</p>
+    <p><b>Возьмем одну расстановку и будем поворачивать стол. Мы получим орбиту
+        из шести расстановок. Общее число орбит будет в 6 раз меньше, чем число всех расстановок.</b></p>
+    <p><img src="lectimg/384.png" alt=""></p>
+    <p><img src="lectimg/385.jpg " alt=""></p>
+    <p><img src="lectimg/386.jpg " alt=""></p>
+    <p><img src="lectimg/387.jpg " alt=""></p>
+    <p><img src="lectimg/388.jpg " alt=""></p>
+    <p><img src="lectimg/389.jpg " alt=""></p>
+    <p><img src="lectimg/390.jpg " alt=""></p>
+    <p><img src="lectimg/391.jpg " alt=""></p>
+    <p><img src="lectimg/392.jpg " alt=""></p>
+    <p><img src="lectimg/393.jpg " alt=""></p>
+    <p><img src="lectimg/394.png" alt=""></p>
+    <p><img src="lectimg/395.jpg" alt=""></p>
+
+<nav aria-label="Page navigation example">
+    <ul class="pagination justify-content-center">
+      <li class="page-item"><a class="page-link" href="lectpage33.html">Предыдущий</a></li>
+      <li class="page-item disabled"><a class="page-link" href="#">34</a></li>
+      <li class="page-item"><a class="page-link" href="lectpage35.html">35</a></li>
+      <li class="page-item"><a class="page-link" href="lectpage36.html">36</a></li>
+      <li class="page-item">
+        <a class="page-link" href="lectpage35.html">Следующая</a>
+      </li>
+    </ul>
+</nav> 
+ </main></div>
+ <script src="http://ajax.googleapis.com/ajax/libs/jquery/1.7.1/jquery.min.js"></script>
+ <div id="topNubex"><img src="../img/naverh.gif" width="70px" height="70px" /></div>
+ <script type="text/javascript">
+  $(function() {
+  $(window).scroll(function() {
+  if($(this).scrollTop() != 0) {
+  $('#topNubex').fadeIn();
+  } else {
+  $('#topNubex').fadeOut();
+  }
+  });
+  $('#topNubex').click(function() {
+  $('body,html').animate({scrollTop:0},100);
+  });
+  });
+  </script>
+
+</body>
+<script src="script.js"></script>
+</html>
