@@ -1,0 +1,80 @@
+.main{
+    background-color: #E0FFFF;
+    width: 100%;
+    min-height: 1000px;
+}
+
+.topnav {
+    background-color: #29167C;
+    overflow: hidden;
+    transition: top 0.3s;
+}
+
+
+.topnav a {
+    float: left;
+    color: #f2f2f2;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+    font-size: 17px;
+}
+
+
+.topnav a:hover {
+    background-color: #ddd;
+    color: black;
+}
+
+
+.topnav a.active {
+    background-color: #241566;
+    color: white;
+}
+
+.rep img{
+    margin: 35px;
+    width: 200px;
+    height: 200px;
+  
+}
+
+.ppp{
+    margin: 30px;
+    text-align: center;
+}
+
+.href{
+    margin: 20px;
+    padding: 20px;
+    position:relative;
+    top: 85px;
+
+}
+.buttom{
+    height: 100px;
+    width: 100px;
+}
+ 
+.col{
+    max-width: 1200px;
+    margin: 0 auto;
+    background-color:white;
+  }
+.up{
+float: right;
+}
+#topNubex {
+	position: fixed;
+	right: 30px;
+	bottom: 30px;
+   }
+
+.button{
+
+  margin: 0 auto;
+  display: block;
+}
+.lead{
+    text-align: center;
+}
